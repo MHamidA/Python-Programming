@@ -1,0 +1,23 @@
+python = interpreter 
+
+interpreter --> reading to 0 and 1 so the binary system can understand
+
+functions = action/verb let u do something in the program
+
+arguments = input to a function that influence function behaviour
+
+bugs = a mistake in the program
+
+variable = a container to store a value
+
+"=" mean assignment
+
+\n = new line
+
+'\' = backslash equal to escaping char, ex: print("hi \"friend\"")
+
+f-string = format string
+
+print(f"{z:,.2f}") 
+==> the , is for thousand output ex: 1,000
+==> the .2f is for decimal point

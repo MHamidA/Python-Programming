@@ -1,0 +1,8 @@
+set = a collection of values where any duplicate will be eliminated
+
+*coins = unpack coins (list to individual argument)
+    * = unpacking list
+
+**coins = unpack dictionary (unpack values with name like in argument of a function)
+
+yield =  return 1 value at a time

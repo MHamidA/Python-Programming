@@ -1,0 +1,12 @@
+assert = it should be correct, ex:
+    assert square(2) == 4
+    >> square 2 must be 4
+
+AssertionError
+
+pytest = 3rd party tools
+
+unit test = testing individiual unit of ur program (basically function)
+
+packages = python module/s that are organize inside a folder
+    __init__.py = a file that become a visual indicator to python that indeed it should that treat that folder as a package 

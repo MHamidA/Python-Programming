@@ -1,0 +1,10 @@
+code = create code file
+python = run python
+ls = list all the fule in current folders
+cp = copy a file one place to another
+mv = move and rename
+rm = remove
+mkdir = make directory
+cd = change directry
+rmdir = remove directory
+clear = clear ur terminal window

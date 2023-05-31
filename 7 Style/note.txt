@@ -1,0 +1,18 @@
+PEP (python enhancement proposal) 8 = proposal that standardize what our code should look like
+
+Readability counts:
+A style guide is about consistenct. Consistency with this style guide is important.
+Consistency within a project is more important. COnsistency within one module our
+function is the most important.
+
+style:
+identation?
+tabs or space?
+maximum line length?
+blank lines?
+imports?
+...
+
+pylint = tools - linter
+less noisy then pylint = pycodestyle
+another popular linter = black = it is opinioted

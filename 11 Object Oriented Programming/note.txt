@@ -1,0 +1,44 @@
+Functional programming = passed function around
+
+tuple = similar to list but it is immutable
+    ex: 
+    return name,house --> this is returning tuple
+
+class = is a blueprint for pieces of data (object)
+    basically we can invent our own data type using class
+
+#attribute = a thing in class that proprty of sort that allows you to specify value inside of class
+attribute = instance variable
+
+everytime we use class it will create an OBJECT:
+
+#object/instance = the incarnation or instantiation of the class
+
+#methods = define function that behave special (?) inside class (basically function inside class)
+
+__ = dunder
+__init__ = dunder init method
+__str__ = when we need to print our class as a string we can us this object
+
+constructor call = the call that will construct our object
+
+self is a must parameter in method of class, so the method can automatically connect to the object that is being created
+
+properties = attribute that is more controlled
+    ex:
+    @ = decorators = function that modify the behaviour of other function
+    @property
+
+Getter
+    @property treat this ffuntion as getter
+
+
+Setter = used to cope if the user edit the method after calling the function ex: adter student = get_student(), run student.house = "Number four" to change the value 
+    @method.setter
+    ex: @house.setter
+
+@classmethod = specify this method is not by default an instance method that have an acces to self but it does now what class is inside
+    basically i can call this method without instiation the object class first
+
+other method:
+    @staticmethod

@@ -1,0 +1,11 @@
+libraries = files of code that other people or you written that we can use in our own program
+modules = library is just library that have one or more function or other feature that built into it
+
+python library that python comes with:
+- random
+
+import = import allows u to import the contnt of some modules in python
+
+
+API = application program interface
+JSON = javascript object notation

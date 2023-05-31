@@ -1,0 +1,63 @@
+regular expressions = regexes
+
+re.search(atter, string, flags=-) = used in my code
+re.match("") = same with re.search without needed to use carat symbol ^
+re.fullmatch("") = same with re.match but not only ^ is not needed but also $
+re.sub(pattern, repl, string, count=0, flags=0) = substitute
+re.findall
+
+re.search can be used for question (T/F) or assign it to variable (assign what this function find to the variable)
+
+. = any character except a new line
+* = 0 or more repetitions
++ = 1 or more repetitions
+? = 0 or 1 repetitions of the thing to the LEFT
+    ex:
+    r"^\w+@(\w+\.)?\w+\.edu$" = tell the regex that group "()" can be there once or zero
+{m} = m repetitions
+{m,n} = m-n repetitions (m through n / range)
+^ = marhces the start of the string
+$ = mathes the end of the string just before the newline at the end of the string
+[] = set of characters
+    ex:
+    [a-z] = a through z
+    [A-Z] = A through Z
+    [0-9] = 0 through 9
+    [a-zA-Z0-9] = all those 3 combined
+    [a-zA-Z0-9_] = all those 3 combined plus _
+    \w = [a-zA-Z0-9_] = alphanumeric symbol or underscore
+[^] = complementing the set ex: [^@] mean every charcter except the sign
+\w = [a-zA-Z0-9_] = alphanumeric symbol or underscore
+\W = not a word character
+\d = decimal digit
+\D = nt a decimal digit
+\s = whitespace character
+\S = not a whitespace character
+A|B = eiter or B
+(...) = a group
+    (|) = list the merge of | and () symbol
+    ex:
+    (com|edu|gov|net) = for the domain not only one but or
+
+    not only for grouping but this parantheses can also used for returning values
+    ex:
+    mathches = re.search(r"^(.+), (.+)$", name)
+
+    if mathces:
+        last, first = mathces.groups()
+        name = f"{first} {last}"
+(?:...) = non capturing version (not returning value (not like ()))
+
+
+FLAGS parameter:
+re.IGNORECASE = ignore case (upper or lower)
+re.MULTILINE 
+re.DOTALL
+
+
+
+.* = zero or more character
+..* = same like before but need to be equal or at least 1 char
+.+ = ..*
+
+r".+@.+\.edu" = make it raw string, so python should not interpret backslash in the usual way, so if there is \n in our query they will not make it as new line rather a escape character for n

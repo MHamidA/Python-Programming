@@ -1,0 +1,5 @@
+bug = mistakes that is in your code
+debugger = tools that help u solve ur bugs
+
+breakpoints= mechanism that allows you to spotify in what line of code that u want to pause or break execution of the program, so we can start poking around at that code
+

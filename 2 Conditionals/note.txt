@@ -1,0 +1,10 @@
+conditionals = ask question and answer wether we decide to do a or b
+
+>   = greater than
+>=  = greater than or equal to
+<   = less than
+<=  = less than or equal to
+==  = equal to
+!=  = not equal to
+
+boolean  expressian = expression that has yes/no or true/false answer

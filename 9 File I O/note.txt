@@ -1,0 +1,5 @@
+w = write, it will recreate file for you (new but each time you use it the last file will be replaced(removed with the new one))
+
+a = append
+
+by using with we can open and close automatically, so no need to close it manually
